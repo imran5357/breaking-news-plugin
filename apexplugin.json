@@ -1,0 +1,42 @@
+{
+  "name" : "MarqueeText",
+  "version" : "1.0",
+  "description" : "This plugin will create the vertical & horizontal (up, down, left, right move) marquee effect in your website",
+  "keywords" : ["Marquee", "News Ticker", "News Scroller", "vertical & horizontal Marquee"],
+  "homepage" : "https://github.com/imran5357/breaking-news-plugin",
+  "bugs" : {
+    "url" : "https://github.com/imran5357/breaking-news-plugin/issues",
+    "email" : "imran15-5357@diu.edu.bd"
+  },
+  "license" : "MIT",
+  "commercial" : "No",
+  "author" : {
+    "name" : "Khandaker Imran Hossain",
+    "email" : "imran15-5357@diu.edu.bd",
+    "url" : "https://www.youtube.com/channel/UCTcpHj6wPUZxcBGp-3A0x8A?sub_confirmation=1"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/imran5357/breaking-news-plugin.git"
+  },
+ "oracle" : {
+    "versions" : [
+		"11.2.0.1",
+		"12.1.0.1",
+		"12.2.0.1"],
+    "apex" : {
+      "versions" : [
+			"5.1.0",
+			"18.1.0",
+			"18.2.0",
+			"19.1.0"
+			],
+      "plugin" : {
+        "internalName" : "APEX.MARQUEE",
+        "type" : "Region",
+        "demo" : "https://apex.oracle.com/pls/apex/f?p=98732:8",
+        "previewImage" : "https://raw.githubusercontent.com/imran5357/breaking-news-plugin/master/Marquee%20Text.gif"
+      }
+    }
+  }
+}
